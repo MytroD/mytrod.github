@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic');
+
+
+html,
+body {
+    height: 100%;
+    background-color: #0e0e0e;
+    font-family: 'Philosopher';
+    overflow:auto;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#item {
+
+}
+
+
+
+.btn .sliderbtn {
+    background: #ccc;
+} .btn:focus{
+    background: red;
+}
+
+/* content */
+
+
+
+
+
+/* Tabs styles 
+
+remove border radius for the tab */
+
+#Tabs .tab-content {
+    color : white;
+    background-color: #282828;
+    padding : 5px 15px;
+}
+
+
+/*highlight */
+
+    #Tabs .nav-tabs > li > a:hover{
+        background-color: #282828 !important;
+        border-bottom-color: transparent;
+    }
+    #Tabs .nav-tabs > li > a:focus{
+        background-color: #1e1e1e !important;
+        border-bottom-color: transparent;
+    }
+
+/* end of highlight */
+
+/* active tab */
+    #Tabs .nav-tabs > li.active > a,
+    #Tabs .nav-tabs > li.active > a:hover{
+      cursor: default  !important;
+      color: white;
+      background-color: #282828 !important;
+      border-bottom-color: transparent;
+     }
+
+     
+    #Tabs .nav-tabs > li.active > a:focus {
+      color: white  !important;
+      cursor: default  !important;
+      background-color: #282828 !important;
+      border: 1px solid #ddd  !important;
+      border-bottom-color: transparent !important;
+      text-decoration: none;
+    }
+/* end active tab*/
+
+
+
+/*
+#Tabs  .tab-content{
+    background-color:#303136;
+    color:#fff;
+    padding:5px
+}
+#Tabs .nav-tabs > li > a{
+  border: medium none;
+}
+ #Tabs  .nav-tabs > li > a:hover{
+  background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+
+
+*/
+
+#about {
+ background-color: #282828;
+}
+#about > h3 {
+
+  background-color: #282828;
+  padding : 5px 15px;
+  color : white;
+  align-items: center;
+
+}
+
+#Mission {
+ background-color: #1e1e1e;
+}
+
+#Position {
+ background-color: #282828;
+}
+
+#Vision {
+ background-color: #282828;
+}
+
+#Projects {
+ background-color: #282828;
+}
+
+
+
+
+
+/* End of content */
+
+/* Footer */
+footer {
+    margin: 50px 0;
+}
