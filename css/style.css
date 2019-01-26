@@ -104,7 +104,7 @@ remove border radius for the tab */
   border: medium none;
 }
  #Tabs  .nav-tabs > li > a:hover{
-  background-color: #303136 !important;
+  background-color: #303136;
     border: medium none;
     border-radius: 0;
     color:#fff;
@@ -122,32 +122,24 @@ remove border radius for the tab */
   padding : 5px 15px;
   color : white;
   align-items: center;
-
 }
 
 #Mission {
- background-color: #1e1e1e;
-}
-
-#Position {
  background-color: #282828;
 }
 
-#Vision {
+#CV {
  background-color: #282828;
 }
 
-#Projects {
+#Contacts {
  background-color: #282828;
 }
-
-
-
 
 
 /* End of content */
 
 /* Footer */
 footer {
-    margin: 50px 0;
+    margin: 90px 0;
 }
