@@ -113,6 +113,12 @@ remove border radius for the tab */
 
 */
 
+
+.home {
+cursor:pointer;
+display:block;
+}
+
 #about {
  background-color: #282828;
 }

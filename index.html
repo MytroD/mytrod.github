@@ -27,9 +27,10 @@
 </head>
 
 <body>
+<div id="Home"> </div>
 
 <!-- Languagebar -->
-    <nav class="navbar navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation"></>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse-1">
@@ -68,28 +69,28 @@
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
 						<h2>Caption 3</h2>
-						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>ABOUT</span></a>
+						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
 					</div>
 			</div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
-						<h2><a class="btn btn-default" role="button" id="sliderbtn" href="#Mission"><span>MISSION</span></a></h2>
+						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
 					</div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
-						<h2><a class="btn btn-default" role="button" id="sliderbtn" href="#Contacts"><span>CONTACTS</span></a></h2>
+						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
 					</div>
 			</div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
-						<h2><a class="btn btn-default" role="button" id="sliderbtn" href="#CV"><span>CV</span></a></h2>
+						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
 					</div>
 			</div>
         </div>
@@ -114,23 +115,24 @@
         </h2>
     </div>
         <div id="Tabs" class="container"> 
-            <ul class="nav nav-tabs">
-                <li class="active">
-                    <a  href="#About" data-toggle="tab">ABOUT</a>
-                </li>
-                <li>
-                    <a href="#Mission" data-toggle="tab">MISSION</a>
-                </li>
-                <li>
-                    <a href="#CV" data-toggle="tab">CV</a>
-                </li>
-                <li>
-                    <a href="#Contacts" data-toggle="tab">CONTACTS</a>
-                </li>
-            </ul>
-
-            <div class="tab-content ">
-                <div class="tab-pane active wow fadeInLeft" id="About" >
+            <nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="http://doianov.me">DOIANOV.ME</a>
+				</div>
+				<ul class="nav navbar-nav">
+				  <li><a href="#Home">HOME</a></li>
+				  <li class="active"><a data-toggle="tab"href="#About">ABOUT</a></li>
+				  <li><a data-toggle="tab" href="#Mission">MISSION</a></li>
+				  <li><a data-toggle="tab" href="#Contacts">CONTACTS</a></li>
+				  <li><a data-toggle="tab" href="#CV">CV</a></li>
+				</ul>
+			  </div>
+			</nav>
+			
+			<div class="tab-content ">
+                
+				<div class="tab-pane active wow fadeInLeft" id="About">
                     <div class="row white">
                             <h1 class="text-center">A LITTLE ABOUT ME</h1>
                             <hr>
@@ -145,16 +147,16 @@
 Широкий спектр знаний в области информационных технологий позволяет мне выполнять любые задачи, ограниченные по времени и требующие неординарного мышления.
                             </p>
                         </div><!-- col-lg-6 -->
-                        
-                        <div class="col-lg-6">
-                            <p><img src="img/placeholder_about.jpg"> </p>  
-                        </div><!-- col-lg-6 -->
-
-                    </div><!-- row -->
+							
+						<div class="col-lg-6">
+					
+										
+						</div><!-- col-lg-6 -->
+						
+					</div><!-- row -->
+				</div>
      
-                </div>
-            
-                <div class="tab-pane wow fadeInLeft" id="Mission">
+            <div class="tab-pane fade wow fadeInLeft" id="Mission">
                     <div class="row white">
                             <h1 class="text-center">MY STAYTMENT</h1>
                             <hr>
@@ -171,7 +173,7 @@
 
                 </div>
 
-                <div class="tab-pane wow fadeInLeft" id="Contacts">
+                <div class="tab-pane fade wow fadeInLeft" id="Contacts">
                     <div class="row white">
                             <h1 class="text-center">MY CONTACTS</h1>
                             <hr>
@@ -196,7 +198,7 @@
                     </div><!-- row -->
                 </div>
             
-                <div class="tab-pane wow fadeInLeft" id="CV">
+                <div class="tab-pane fade wow fadeInLeft" id="CV">
                     <div class="row white">
                             <h1 class="text-center">MY CV</h1>
                             <hr>
@@ -222,7 +224,7 @@
     <nav class="navbar-fixed-bottom"> 
         <div class="container">
             <div class="navbar-right">
-                <span><a href="https://www.facebook.com/doianov"><i class="fa fa-facebook fa-lg"></i></a></span>
+                <!--<span><a href="https://www.facebook.com/#"><i class="fa fa-facebook fa-lg"></i></a></span>  -->  
                 <span><a href="https://www.twitter.com/dmytro.doianov"><i class="fa fa-twitter fa-lg"></i></a></span>
                 <span><a href="https://www.instagram.com/dmytrodoianov/"><i class="fa fa-instagram fa-lg"></i></a></span>
                 <span><a href="https://linkedin.com/in/doianov"><i class="fa fa-linkedin fa-lg"></i></a></span>
@@ -240,7 +242,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
 <script src="js/wow.js"></script>
+
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
