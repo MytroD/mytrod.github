@@ -1,36 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Dmytro Doianov</title>
-    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/languages.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-     
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-<div id="Home"> </div>
-
-<!-- Languagebar -->
-    <nav class="navbar navbar-fixed-top" role="navigation"></>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse-1">
@@ -40,7 +7,6 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-
             <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
                 <div class="btn-group">
                     <a class="btn active" role="button"  href="http://doianov.me/"><span class="lang-sm" lang="en"></span></a>
@@ -50,7 +16,6 @@
         </div>
     </nav>
    <!-- /languagebar -->
-
     <!-- Slider -->
     <section id="dDCarousel" class="carousel slide">
     
@@ -61,7 +26,6 @@
             <li data-target="#dDCarousel" data-slide-to="2"></li>
             <li data-target="#dDCarousel" data-slide-to="3"></li>
         </ol>
-
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
@@ -69,32 +33,31 @@
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
 						<h2>Caption 3</h2>
-						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
+						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>ABOUT</span></a>
 					</div>
 			</div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
-						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
+						<h2><a class="btn btn-default" role="button" id="sliderbtn" href="#Mission"><span>MISSION</span></a></h2>
 					</div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
-						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
+						<h2><a class="btn btn-default" role="button" id="sliderbtn" href="#Contacts"><span>CONTACTS</span></a></h2>
 					</div>
 			</div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://doianov.me/img/slide_1.png');"></div>
 					<div class="carousel-caption">
-						<a class="btn btn-outline-primary btn-lg" role="button" id="sliderbtn" href="#About"><span>MORE</span></a>
+						<h2><a class="btn btn-default" role="button" id="sliderbtn" href="#CV"><span>CV</span></a></h2>
 					</div>
 			</div>
         </div>
-
         <!-- Controls -->
         <a class="left carousel-control" href="#dDCarousel" data-slide="prev">
             <span class="icon-prev"></span>
@@ -104,8 +67,6 @@
         </a>
     </sectiom>
     <!-- /Slider -->
-
-
     <!-- Content -->
     <section class="fill" id="content">
     <div class="container">
@@ -115,87 +76,82 @@
         </h2>
     </div>
         <div id="Tabs" class="container"> 
-            <nav class="navbar navbar-inverse">
-			  <div class="container-fluid">
-				<div class="navbar-header">
-				  <a class="navbar-brand">DOIANOV.ME</a>
-				</div>
-				<ul class="nav navbar-nav">
-				  <li><a href="http://doianov.me">HOME</a></li>
-				  <li class="active"><a data-toggle="tab"id="#About">ABOUT</a></li>
-				  <li><a data-toggle="tab" id="#Mission">MISSION</a></li>
-				  <li><a data-toggle="tab" href="#Contacts">CONTACTS</a></li>
-				  <li><a data-toggle="tab" href="#CV">CV</a></li>
-				</ul>
-			  </div>
-			</nav>
-			
-			<div class="tab-content ">
-       			<div class="tab-pane active wow fadeInLeft" id="About">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a  href="#About" data-toggle="tab">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#Mission" data-toggle="tab">MISSION</a>
+                </li>
+                <li>
+                    <a href="#CV" data-toggle="tab">CV</a>
+                </li>
+                <li>
+                    <a href="#Contacts" data-toggle="tab">CONTACTS</a>
+                </li>
+            </ul>
+            <div class="tab-content ">
+                <div class="tab-pane active wow fadeInLeft" id="About" >
                     <div class="row white">
                             <h1 class="text-center">A LITTLE ABOUT ME</h1>
                             <hr>
-							<div class="col-lg-6">
-                            <p> My name is Dmytro Doianov.</p>
-                            <p> Cпециалист по тестировнию ПО, вэб интерфейсов и видеоигр. </p>
-							<p> Диплом инженера АСУ подтвердил мои знания, и с момента окончания университета я не упускаю возможности повысить</p> 
-							<p> свою квалификацию. Широкий спектр знаний в области информационных технологий позволяет мне выполнять любые задачи,</p>
-							<p> ограниченные по времени и требующие неординарного мышления.</p>
+                        <div class="col-lg-6">
+                            <p>
+                            My name is Dmytro Doianov.
+                            </p>
+                            <p>
+                            Cпециалист по тестировнию ПО, вэб интерфейсов и видеоигр. 
+							Диплом инженера АСУ подтвердил мои знания, и с момента окончания университета я не упускаю возможности повысить свою квалификацию.
+Широкий спектр знаний в области информационных технологий позволяет мне выполнять любые задачи, ограниченные по времени и требующие неординарного мышления.
+                            </p>
                         </div><!-- col-lg-6 -->
-							
-						<div class="col-lg-6">
-					         <p> place for photo</p> 
-						</div><!-- col-lg-6 -->
-					</div><!-- row -->
-				</div>
+                        
+                        <div class="col-lg-6">
+                            <p><img src="img/placeholder_about.jpg"> </p>  
+                        </div><!-- col-lg-6 -->
+                    </div><!-- row -->
      
-            <div class="tab-pane fade wow fadeInLeft" id="Mission">
+                </div>
+            
+                <div class="tab-pane wow fadeInLeft" id="Mission">
                     <div class="row white">
                             <h1 class="text-center">MY STAYTMENT</h1>
                             <hr>
                         <div class="col-lg-6">
                             <p>MY MISSION</p>
                             <p>Development and support of socially significant projects. </p>
-							<p>I work only under the contract. We will sign some agreement later - not an option.</p>
-							<p> I do not work with companies that produce and / or distribute alcohol and tobacco products.</p>
-							<p>Work with encourage and  </p>
-							<p>I don't work with companies and people which support terrorism and / or incite interethnic hatred. </p>
                         </div><!-- col-lg-6 -->
-					
-					<div class="col-lg-6">
+                        
+                        <div class="col-lg-6">
                             <p>MY VISION</p>
                             <p>My vision for successful cooperation is that during the joint work, both sides are equally able to realize their goals and objectives. Without reservations. </p>
                         </div><!-- col-lg-6 -->
                     </div><!-- row -->
-
                 </div>
-
-                <div class="tab-pane fade wow fadeInLeft" id="Contacts">
+                <div class="tab-pane wow fadeInLeft" id="Contacts">
                     <div class="row white">
-                            <h1 class="text-center">CONTACT INFORMATION</h1>
+                            <h1 class="text-center">MY CONTACTS</h1>
                             <hr>
                         
                         <div class="col-lg-6">
-                            
+                            <p>I work only under the contract. We will sign some agreement later - not an option.</p>
                         </div><!-- col-lg-6 -->
                         
                         <div class="col-lg-6">
-                            
+                            <p> I do not work with companies that produce and / or distribute alcohol and tobacco products.</p>
                             
                         </div><!-- col-lg-6 -->
-
                          <div class="col-lg-6">
-                         
+                            <p>Work with encourage and  </p>
                         </div><!-- col-lg-4 -->
-
                         <div class="col-lg-6">
-                          
+                            <p>I don't work with companies and people which support terrorism and / or incite interethnic hatred. </p>
                             <p><img src="img/no_terrorism.jpg"> </p>  
                         </div><!-- col-lg-4 -->
                     </div><!-- row -->
                 </div>
             
-                <div class="tab-pane fade wow fadeInLeft" id="CV">
+                <div class="tab-pane wow fadeInLeft" id="CV">
                     <div class="row white">
                             <h1 class="text-center">MY CV</h1>
                             <hr>
@@ -209,19 +165,16 @@
                         </div><!-- col-lg-6 -->
                     </div><!-- row -->
                 </div>   
-
             </div>
         </div>
     </section>
-
     <!-- end content -->
-
 <!-- Footer -->
 <footer>
     <nav class="navbar-fixed-bottom"> 
         <div class="container">
             <div class="navbar-right">
-                <!--<span><a href="https://www.facebook.com/#"><i class="fa fa-facebook fa-lg"></i></a></span>  -->  
+                <span><a href="https://www.facebook.com/doianov"><i class="fa fa-facebook fa-lg"></i></a></span>
                 <span><a href="https://www.twitter.com/dmytro.doianov"><i class="fa fa-twitter fa-lg"></i></a></span>
                 <span><a href="https://www.instagram.com/dmytrodoianov/"><i class="fa fa-instagram fa-lg"></i></a></span>
                 <span><a href="https://linkedin.com/in/doianov"><i class="fa fa-linkedin fa-lg"></i></a></span>
@@ -234,19 +187,14 @@
     </nav>
 </footer>
   
-
 <!-- scripts -->
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
 <script src="js/wow.js"></script>
-
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
     </script>
-
 </body>
 </html>
